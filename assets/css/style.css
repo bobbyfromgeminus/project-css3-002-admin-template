@@ -201,17 +201,9 @@ body {
 }
 
 .main__card {
-    width: 100%;
+    flex-basis: 100%;
     margin: 1rem;
     border-radius: .25rem;
-}
-
-@media only screen and (min-width: 700px) {
-    .main__card {
-        width: 25%;
-        margin: 1rem;
-        border-radius: .25rem;
-    }
 }
 
 .card__top {
