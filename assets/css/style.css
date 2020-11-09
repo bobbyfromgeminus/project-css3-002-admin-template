@@ -35,17 +35,11 @@ body {
 }
 
 .header__search {
-    display: inline-block;
+    display: inline-flex;
     float: right;
-    height: 100%;
-    padding: .375rem .75rem;
-}
-
-.header__search__form {
-    display: flex;
     align-items: center;
-    justify-content: center;
     flex-direction: row;
+    height: 100%;
     padding: .375rem .75rem;
 }
 
@@ -114,7 +108,8 @@ body {
 }
 
 .nav__ul {
-    list-style: none;
+    list-style-type: none;
+    
 }
 
 .nav__header {
@@ -226,11 +221,11 @@ body {
     color: rgb(255,255,255);
     text-shadow: 0 0.1rem .15rem rgba(0,0,0,0.7);
     font-size: 1.2rem;
+    transition: background-color .3s;
 }
 
 .card__top:hover {
     background-color: rgba(0,0,0,.05);
-    transition: background-color .3s;
 }
 
 .card__bottom {
@@ -240,11 +235,11 @@ body {
     color: rgb(255,255,255);
     text-shadow: 0 0.1rem .15rem rgba(0,0,0,0.7);
     font-size: .8rem;
+    transition: background-color .3s;
 }
 
 .card__bottom:hover {
     background-color: rgba(0,0,0,.2);
-    transition: background-color .3s;
 }
 
 .card__bottom--arrow {
